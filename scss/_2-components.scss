@@ -14,14 +14,51 @@ $fta-blue: #2B4060;
 $fta-orange: #FF5F00;
 $fta-orange-light: #FE7820;
 $muted: rgba(0,0,0,0.5);
+$bg-muted: #f3f3f3;
 
 // Typography
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-stack;
-    font-weight: $bold;
+    font-weight: 900;
     text-transform: uppercase !important;
-    letter-spacing: 2px !important;
+    letter-spacing: 1px !important;
+}
+
+.section-heading {
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+
+    @media(min-width: 768px) {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+}
+
+.main-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+
+    @media(min-width: 768px) {
+        font-size: 5rem;
+        line-height: 4.5rem;
+    }
+}
+
+.sub-heading {
+    font-size: 2rem;
+    line-height: 2rem;
+
+    @media(min-width: 768px) {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
+
+p.lead {
+    font-size: 20px !important;
+    font-weight: 500;   
+    line-height: 1.8em !important;
 }
 
 a {
@@ -30,24 +67,8 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-
-.sub-heading {
-    font-weight: 600;
-    letter-spacing: 3px !important;
-    text-transform: uppercase;
-    line-height: 2rem;
-}
-
-.sub-heading-h1 {
-    font-size: 16px !important;
-    font-weight: 600;
-    letter-spacing: 3px !important;
-    text-transform: uppercase;
-    line-height: 2rem;
-}
-
-.main-heading-h2 {
-    font-size: 20px;
+.focus-word {
+    border-bottom: solid 2px #FE7820;
 }
 
 
@@ -198,6 +219,10 @@ a {
         justify-content: center;
         align-items: center;
         text-align: center !important;
+        transition: transform 0.3s ease-in-out;
+    }
+    i:hover {
+        transform: translateY(-7px);
     }
 }
 

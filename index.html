@@ -17,121 +17,333 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 
     <title>Fast Track Academy PH | SELF-MASTERY </title>
+    
 
   </head>
   <body>
-   <header class="bg-hero">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-3">
-        <a class="navbar-brand" href="#"><img src="img/logo_with_type.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item nav-hover mx-2">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item nav-hover mx-2">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item nav-hover mx-2">
-              <a class="nav-link" href="#">Self-Mastery</a>
-            </li>
-            <li class="nav-item nav-hover mx-2">
-              <a class="nav-link" href="#">Coaches</a>
-            </li>
-            <li class="nav-item  nav-hover mx-2">
-              <a class="nav-link" href="#">Tribe</a>
-            </li>
-            <li class="nav-item nav-hover mx-2">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link underline" href="#">Members Area</a>
-            </li>
-          </ul>
-        </div>
-      </nav> <!-- end nav -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=174209469628&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
-      <div class="container text-white hero-cta" >
-        <div class="row align-item-center">
-          <div class="col-sm-12 col-md-7 col-lg-7">
-            <div class="jumbotron">
-                <small class="sub-heading-h1">WELCOME TO</small>
-                <h1 class="main-heading mb-3">Fast Track Academy</h1>
-                <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porttitor quam, sed consectetur risus aliquet id. Suspendisse potenti. </p>
-                <a class="btn btn-primary btn-lg">Learn More</a>
-            </div>
-          </div> <!-- end col -->
-        </div> <!-- end row -->
-      </div> <!-- end container -->
+
+   <header class="bg-hero" id="hero">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mt-2">
+          <li class="nav-item">
+            <a class="nav-link hover-effect smooth-scroll" href="#hero">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-effect smooth-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-effect smooth-scroll" href="#product">Self-Mastery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-effect smooth-scroll" href="#coaches">Coaches</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-effect smooth-scroll" href="#tribe">Tribe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-effect smooth-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item login-cta">
+            <a class="nav-link" href="#">Members Area <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+    <div class="jumbotron">
+        <h1 class="main-heading">Fast Track</h1>
+        <h2 class="sub-heading mb-3">Academy</h2>
+        <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis minus quos neque voluptatem temporibus maxime nisi aliquam vel! Dicta illo sapiente dolor soluta tenetur inventore, rerum earum nesciunt culpa ducimus.</p>
+        <a class="btn btn-primary btn-lg mb-5 smooth-scroll" href="#about" role="button" >Learn more</a>
+    </div>
    </header>
-
+   
+   <div class="scroll-guide mb-5" id="about"></div>
    <main class="bg-white">
-      <section class="container about py-5">
-        <div class="row">
-          <div class="col-sm-6 about-details">
-              <small class="sub-heading">About</small>
-              <h2 class="main-heading-h2 mb-3">What is Fast Track Academy</h2>
-              <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porttitor quam, sed consectetur risus aliquet id. Suspendisse potenti. Quisque vel diam nisl. Integer at tincidunt dolor, non facilisis justo. Proin sit amet est nec dolor dictum consectetur. Pellentesque vel ligula non quam dignissim molestie.
-              </p>
-              <p class="text-muted mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porttitor quam, sed consectetur risus aliquet id. Suspendisse potenti. Quisque vel diam nisl. Integer at tincidunt dolor, non facilisis justo. Proin sit amet est nec dolor dictum consectetur. Pellentesque vel ligula non quam dignissim molestie.
-              </p>
-              <p class="nav social">
-                <span> <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></span>
-                <span><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></span>
-              </p>
-          </div> <!-- end col -->
-
-          <div class="col-sm-6">
-            <img src="img/ft_img_about.png" alt="Featured image under about section" class="img-fluid d-block mx-auto">
-          </div>
-        </div> <!-- end row -->
-      </section> <!-- end section -->
-
-      <section class="product bg-product py-5">
+      <section class="about py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-                <small class="sub-heading text-white">Featured Product</small>
-                <h2 class="main-heading-h2 mb-5 text-center text-white">SELF-MASTERY & ENTREPRENEURSHIP <br> INTENSIVE MASTER CLASS</h2>
-                <img src="img/product.png" alt="Self-Mastery" class="img-fluid d-block mx-auto mb-5">
-                <p class="mb-5 text-white text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porttitor quam, sed consectetur risus aliquet id. Suspendisse potenti. Quisque vel diam nisl. Integer at tincidunt dolor, non facilisis justo. Proin sit amet est nec dolor dictum consectetur. Pellentesque vel ligula non quam dignissim molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porttitor quam, sed consectetur risus aliquet id. Suspendisse potenti.
-                </p>
-                <a class="btn btn-primary">Learn More</a>
+          <div class="row justify-content-center">
+            <div class="col-sm-7 text-center">
+              <h3 class="section-heading mb-5">
+                What is Fast Track Academy?
+              </h3>
+              <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores unde! Consequatur, dolores quidem. Alias libero tenetur repudiandae maiores fugiat repellendus laudantium aliquid ea, soluta ipsum veniam, praesentium magnam molestiae!</p>
+              <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores unde! Consequatur, dolores quidem. Alias libero tenetur repudiandae maiores fugiat repellendus laudantium aliquid ea, soluta ipsum veniam, praesentium magnam molestiae!</p>
+              <hr class="my-5">
+              <ul class="nav justify-content-center social mb-5">
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="product bg-product" id="product">
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-7 order-sm-12 my-3">
+                    <img src="img/updated-product.png" alt="Self-Mastery Featured Image" class="img-fluid" style="filter: opacity(90%); filter: saturate(80%);">
+                </div>
+              <div class="col-sm-6 col-md-5 text-white">
+                  <h3 class="section-heading mb-3">
+                    Self-Mastery &amp; Entrepreneurship Masterclass
+                  </h3>
+                  <p class="mb-5">Through <span class="focus-word">Self-Mastery</span>, you will gain clarity on what you are, where you are from and where will you be</p>
+                  <a class="btn btn-outline-white mb-5" href="#" role="button" >Learn more</a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <div class="scroll-guide mb-5" id="coaches"></div>
+      <section class="bg-white coaches py-5">
+        <div class="container">
+          <h3 class="section-heading mb-5 text-center">
+              Coaches &amp; Mentors
+          </h3>
+          <div class="card-deck mb-3">
+            <div class="card mx-auto">
+              <img class="card-img-top" src="img/coach_james.png" alt="coach profile pic" class="img-fluid d-block mx-auto">
+              <div class="card-body my-3">
+                <h5 class="coach-name">James Guillera</h5>
+                <p class="card-text"><small class="text-muted coach-role">Co-Founder of Fast Track Academy</small></p>
+                <p class="social">
+                  <span> <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fas fa-globe-americas"></i></a></span>
+                </p>
+              </div>
+            </div> <!-- end card -->
+
+            <div class="card mx-auto">
+              <img class="card-img-top" src="img/coach_rey.png" alt="coach profile pic" class="img-fluid d-block mx-auto">
+              <div class="card-body my-3">
+                <h5 class="coach-name">Rey VALERIANO</h5>
+                <p class="card-text"><small class="text-muted coach-role">Co-Founder of Fast Track Academy</small></p>
+                <p class="social">
+                  <span> <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fas fa-globe-americas"></i></a></span>
+                </p>
+              </div>
+            </div> <!-- end card -->
+
+            <div class="card mx-auto">
+              <img class="card-img-top" src="img/coach_james.png" alt="coach profile pic" class="img-fluid d-block mx-auto">
+              <div class="card-body my-3">
+                <h5 class="coach-name">James Guillera</h5>
+                <p class="card-text"><small class="text-muted coach-role">Co-Founder of Fast Track Academy</small></p>
+                <p class="social">
+                    <span> <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></span>
+                    <span><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></span>
+
+                    <span><a href="#" class="nav-link"><i class="fas fa-globe-americas"></i></a></span>
+                </p>
+              </div>
+            </div> <!-- end card -->
+          </div> <!-- end card deck -->
+
+          <div class="card-deck mb-3">
+            <div class="card mx-auto">
+              <img class="card-img-top" src="img/coach_rey.png" alt="coach profile pic" class="img-fluid d-block mx-auto">
+              <div class="card-body my-3">
+                <h5 class="coach-name">Rey VALERIANO</h5>
+                <p class="card-text"><small class="text-muted coach-role">Co-Founder of Fast Track Academy</small></p>
+                <p class="social">
+                    <span> <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></span>
+                    <span><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></span>
+
+                    <span><a href="#" class="nav-link"><i class="fas fa-globe-americas"></i></a></span>
+                </p>
+              </div>
+            </div> <!-- end card -->
+
+            <div class="card mx-auto">
+              <img class="card-img-top" src="img/coach_james.png" alt="coach profile pic" class="img-fluid d-block mx-auto">
+              <div class="card-body my-3">
+                <h5 class="coach-name">James Guillera</h5>
+                <p class="card-text"><small class="text-muted coach-role">Co-Founder of Fast Track Academy</small></p>
+                <p class="social">
+                  <span> <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fas fa-globe-americas"></i></a></span>
+                </p>
+              </div>
+            </div> <!-- end card -->
+            
+            <div class="card mx-auto">
+              <img class="card-img-top" src="img/coach_rey.png" alt="coach profile pic" class="img-fluid d-block mx-auto">
+              <div class="card-body my-3">
+                <h5 class="coach-name">Rey VALERIANO</h5>
+                <p class="card-text"><small class="text-muted coach-role">Co-Founder of Fast Track Academy</small></p>
+                <p class="social">
+                  <span> <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></span>
+                  <span><a href="#" class="nav-link"><i class="fas fa-globe-americas"></i></a></span>
+                </p>
+              </div>
+            </div> <!-- end card -->
+
+          </div> <!-- end card deck -->
+        </div> <!-- end container -->
+      </section> <!-- end section -->
+
+      <div class="scroll-guide mb-5" id="tribe"></div>
+      <section class="tribe bg-tribe py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-7 mx-auto text-center">
+              <h3 class="section-heading my-5 text-center">
+                  Fast Track Tribe
+              </h3>
+              <p class="lead text-muted mb-5">
+                  This is an “online neighbourhood” for high-achievers who want to connect, push each other, and unleash their full potential. Fast Track Tribe is an online meeting place for people who refuse to settle for a mediocre life. It’s made up of ordinary Filipino entrepreneurs, aspiring to be an entrepreneur, OFWs, employees, marketers and a lot more. A highly motivated and inspired individuals that aims to be successful from all walks of life.
+              </p>
+              <a class="btn btn-primary mb-5">Join Now</a>
+              <hr class="my-5">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tribe-show py-5 px-3 bg-white">
+        <div class="container">
+          <div class="row justify-content-center">
+              <h3 class="mb-3 text-center">
+                  Fast Track Tribe Videos
+              </h3>
+              <div class="card-deck mt-5 mb-3">
+                  <div class="card mb-3">
+                      <div class="fb-video" data-href="https://www.facebook.com/FastTrackAcademyPH/videos/2036478703284098/" data-width="500" data-show-text="false"  data-allowfullscreen="true"
+                        data-autoplay="false" data-show-captions="true">
+                      </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Join Fast Track Tribe</h5>
+                      <p class="text-muted">Gusto mo bang ma-unleash ang 'yung <strong>full potential to achieve real success?</strong> Be part of the <strong>Fast Track Tribe Now for free!! yes for Free!!!</strong></p>
+                      <p class="card-text"><small class="text-muted">Uploaded on Friday, June 29, 2018</small></p>
+                    </div>
+                  </div> <!-- end card -->
+
+                  <div class="card mb-3">
+                      <div class="fb-video" data-href="https://www.facebook.com/FastTrackAcademyPH/videos/2079003065698328/" data-width="500" data-show-text="false" data-allowfullscreen="true"
+                      data-autoplay="false" data-show-captions="true"></div>
+                    <div class="card-body ">
+                      <h5 class="card-title">Paano mo makukuha ang DREAMS mo?</h5>
+                      <p class="text-muted">
+                          <strong> (Watch this FREE Bonus Video)</strong>
+                          Para masimulan mo na ang pag-abot sa mataas mong pangarap, click this link para makasama ka namin sa Academy</p>
+                      <p class="card-text"><small class="text-muted">Uploaded on Thursday, August 9, 2018</small></p>
+                    </div>
+                  </div> <!-- end card -->
+                  
+              </div> <!-- end card deck -->
+
+              <div class="card-deck mt-3 mb-5">
+                  <div class="card mb-3">
+                      <div class="fb-video" data-href="https://www.facebook.com/FastTrackAcademyPH/videos/2037881086477193/" data-width="500" data-show-text="false"  data-allowfullscreen="true"
+                      data-autoplay="false" data-show-captions="true"></div>
+                    <div class="card-body ">
+                      <h5 class="card-title">Join Fast Track Tribe</h5>
+                      <p class="text-muted">What if may isang <strong>tribo</strong> ng mga successful and inspiring filipinos' na handang tumulong at mag-share ng kanilang <strong>secrets</strong> sa mga taong willing matuto ng <strong>libre?</strong></p>
+                      <p class="card-text"><small class="text-muted">Uploaded on Sunday, July 1, 2018</small></p>
+                    </div>
+                  </div> <!-- end card -->
+
+                  <div class="card mb-3">
+                      <div class="fb-video" data-href="https://www.facebook.com/FastTrackAcademyPH/videos/2079003065698328/" data-width="500" data-show-text="false" data-allowfullscreen="true"
+                      data-autoplay="false" data-show-captions="true"></div>
+                    <div class="card-body ">
+                      <h5 class="card-title">Paano mo makukuha ang DREAMS mo?</h5>
+                      <p class="text-muted">
+                          <strong> (Watch this FREE Bonus Video)</strong>
+                          Para masimulan mo na ang pag-abot sa mataas mong pangarap, click this link para makasama ka namin sa Academy</p>
+                      <p class="card-text"><small class="text-muted">Uploaded on Thursday, August 9, 2018</small></p>
+                    </div>
+                  </div> <!-- end card -->
+                  
+              </div> <!-- end card deck -->
+          </div> <!-- end row -->
+        </div> <!-- end container -->
+      </section>
+
+      <div class="scroll-guide mb-5" id="contact"></div>
+      <section class="contact bg-contact">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-6 text-white">
+                <h3 class="section-heading mt-3 mb-3 text-white text-center">
+                    Let's Talk
+                </h3>
+                <p class="text-white text-center mb-5">If you need further information or clarification please do not hesitate to contact us.</p>
+                <form class="mx-auto">
+               
+                    <div class="form-group">
+                        <input type="text" class="form-control bline" id="formGroupExampleInput" placeholder="Enter name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-control bline" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea class="form-control bline" id="exampleFormControlTextarea1" rows="5" placeholder="Enter message"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+
    </main>
 
-   <footer class="bg-white footer">
+   <footer class="footer">
       <div class="container my-5">
         <div class="row">
           <div class="col-sm-12">
-            <img src="img/logo-with-type-dark.png" alt="Fast Trac Academy Logo" class="mx-auto d-block img-fluid mb-5">
+            <img src="img/logo-orig-type.png" alt="Fast Trac Academy Logo" class="mx-auto d-block img-fluid mb-5">
             <hr class="my-3">
             <ul class="nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link smooth-scroll" href="#hero">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link smooth-scroll" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Self-Mastery</a>
+                <a class="nav-link smooth-scroll" href="#product">Self-Mastery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Coaches</a>
+                <a class="nav-link smooth-scroll" href="#coaches">Coaches</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tribe</a>
+                <a class="nav-link smooth-scroll" href="#tribe">Tribe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link smooth-scroll" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Members Area</a>
@@ -145,16 +357,20 @@
                   <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
               </li>
             </ul>
-            <p class="text-muted text-center">&copy; 2018 Fast Track Academy PH. All rights reserved.</p>
+            <small class="text-white text-center">&copy; 2018 Fast Track Academy PH. All rights reserved.</small>
           </div>
         </div>
       </div>
    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Add other JS files after that -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <!-- Vendor JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
 
   </body>
 </html>
